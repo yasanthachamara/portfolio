@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 import Header from "./components/Header";
 import Feature from "./components/Feature";
 import Divider from "./components/Divider";
+import skills from "./public/skills";
 
 function App() {
   const person = {
@@ -25,7 +26,7 @@ function App() {
         data-bs-theme="dark"
       />
       <Divider />
-      <Feature />
+      <Feature title="Tools & Technologies" skills={skills} />
     </Container>
   );
 }
