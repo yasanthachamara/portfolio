@@ -36,8 +36,40 @@ const skills = [
     colored: false,
   },
   {
+    name: "OAuth",
+    icon: "devicon-oauth-plain",
+    colored: false,
+  },
+
+  {
+    name: "Postman",
+    icon: "devicon-postman-plain",
+    colored: true,
+  },
+  {
     name: "Oracle",
     icon: "devicon-oracle-original",
+    colored: true,
+  },
+
+  {
+    name: "MS SQL Server",
+    icon: "devicon-microsoftsqlserver-plain",
+    colored: true,
+  },
+  {
+    name: "PostgreSQL",
+    icon: "devicon-postgresql-plain",
+    colored: true,
+  },
+  {
+    name: "MySQL",
+    icon: "devicon-mysql-original",
+    colored: true,
+  },
+  {
+    name: "VS Code",
+    icon: "devicon-vscode-plain",
     colored: true,
   },
 ];

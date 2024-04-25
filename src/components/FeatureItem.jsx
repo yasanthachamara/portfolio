@@ -12,7 +12,7 @@ function FeatureItem(props) {
         <i className={`bi flex-shrink-0 me-3 ${colored} ${props.icon}`}></i>
       )}
       <div>
-        <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">{props.title}</h3>
+        <h3 className="mb-0 fs-6 text-body-emphasis">{props.title}</h3>
       </div>
     </div>
   );
