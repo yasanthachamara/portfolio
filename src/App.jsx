@@ -27,6 +27,7 @@ function App() {
       />
       <Divider />
       <Feature title="Tools & Technologies" skills={skills} />
+      <Divider />
     </Container>
   );
 }
