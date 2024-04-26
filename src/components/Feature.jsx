@@ -1,9 +1,10 @@
+import { Container } from "react-bootstrap";
 import FeatureItem from "./FeatureItem";
 import { v4 as uuidv4 } from "uuid";
 
 function Feature(props) {
   return (
-    <div className="container px-4 py-5" id="icon-grid">
+    <Container className="px-4 py-5" id="icon-grid">
       <h2 className="pb-2 border-bottom">{props.title}</h2>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
         {props.skills.map((skill) => {
@@ -18,7 +19,7 @@ function Feature(props) {
           );
         })}
       </div>
-    </div>
+    </Container>
   );
 }
 
